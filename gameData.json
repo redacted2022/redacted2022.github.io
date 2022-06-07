@@ -1,0 +1,18 @@
+[
+	{
+		"title": "tutoriál",
+		"description": "ukázková úroveň",
+		"imageUrl": "/images/trans.jpg",
+		"transitionText": "Toto je první den ve vašem novém zaměstnání",
+		"pages": [
+			{
+				"text": "Zde budou umístěny <?upravené?>1 články z dobových novin jako je například <?Rudé Právo?>1",
+				"explanation": "Zde se bude nacházet vysvětlení článku a další dodatečné informace"
+			},
+			{
+				"text": "cbt based",
+				"explanation": "Zde se bude nacházet vysvětlení článku a další dodatečné informace"
+			}
+		]
+	}
+]
