@@ -1,0 +1,116 @@
+.navbar {
+	height: 7.5vh;
+}
+
+.bg-container {
+	height: 92.5vh;
+	background-color: black;
+}
+
+.paper {
+	background-color: white;
+	height: 80vh;
+	/* aspect ratio of real A4 papers */
+	aspect-ratio: 1 / 1.41;
+	margin-top: 10vh;
+}
+
+.review-paper {
+	background-color: white;
+	height: 60vh;
+	aspect-ratio: 1 / 1.41;
+	margin-top: 10vh;
+}
+
+.correct {
+	text-decoration: underline 2px;
+	text-decoration-color: green;
+}
+
+.wrong {
+	text-decoration: underline 2px;
+	text-decoration-color: red;
+}
+
+.separator {
+	margin-top: 10vh;
+	height: 65vh;
+	width: 3px;
+	background-color: gray;
+}
+
+.review-explanation {
+	height: 60vh;
+	aspect-ratio: 1 / 1.41;
+	margin-top: 10vh;
+	background-color: rgb(20, 20, 20);
+}
+
+.review-btn-container {
+	height: 80vh;
+	aspect-ratio: 1 / 1.41;
+	margin-top: 10vh;
+	display: flex;
+	align-items: flex-end;
+}
+
+.image-cover {
+	width: 100vw;
+	height: 95vh;
+	object-fit: scale-down;
+	background-color: black;
+}
+
+.transition-text-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100vw;
+	height: 3rem;
+}
+
+.transition-text-container p {
+	width: 90vw;
+}
+
+.transition-text-container button {
+	width: 8rem;
+}
+
+.btn-redact {
+	all: unset;
+	padding: 0px 1px;
+	border: 1px black solid;
+}
+
+.redacted {
+	background-color: black;
+	color: black;
+}
+
+.overlay-black {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	background-color: black;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
