@@ -11,7 +11,7 @@ function App() {
 			<Router basename='/'>
 				<Navbar />
 				<Routes>
-					<Route path='/'>
+					<Route path='/#/'>
 						<Route exact path='' element={<Home />} />
 						<Route exact path='about' element={<About />} />
 						<Route exact path='play' element={<Levels />} />
