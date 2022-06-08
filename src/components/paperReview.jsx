@@ -48,7 +48,9 @@ function PaperReview(props) {
 			})}
 			<Carousel.Item>
 				<div className='review-btn-container mx-auto'>
-					<Link to='/play' className='btn btn-primary btn-lg mx-auto'>
+					<Link
+						to='/#/play'
+						className='btn btn-primary btn-lg mx-auto'>
 						zpět
 					</Link>
 				</div>
