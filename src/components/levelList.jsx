@@ -16,7 +16,7 @@ function levelList(props) {
 										{level.description}
 									</p>
 									<Link
-										to={`/#/play/${index}`}
+										to={`/play/${index}`}
 										className='btn btn-primary'>
 										Hrát
 									</Link>
