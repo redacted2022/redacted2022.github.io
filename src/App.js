@@ -8,7 +8,7 @@ import GameUI from './pages/gameUI'
 function App() {
 	return (
 		<div className='App'>
-			<Router basename='/'>
+			<Router basename='/#/'>
 				<Navbar />
 				<Routes>
 					<Route path='/'>

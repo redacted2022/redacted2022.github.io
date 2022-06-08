@@ -20,10 +20,10 @@ function Home() {
 							zpracovat přehledně, srozumitelně a pokud možno
 							esteticky a zábavně.
 						</p>
-						<Link to='/#/about' className='btn btn-secondary me-3'>
+						<Link to='/about' className='btn btn-secondary me-3'>
 							O projektu
 						</Link>
-						<Link to='/#/play' className='btn btn-primary'>
+						<Link to='/play' className='btn btn-primary'>
 							Hrát
 						</Link>
 					</div>

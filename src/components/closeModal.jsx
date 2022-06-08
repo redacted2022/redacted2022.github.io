@@ -13,7 +13,7 @@ function CloseModal(props) {
 					}}>
 					Zrušit
 				</Button>
-				<Link to='/#/play'>
+				<Link to='/play'>
 					<Button variant='primary'>Odejít</Button>
 				</Link>
 			</Modal.Footer>

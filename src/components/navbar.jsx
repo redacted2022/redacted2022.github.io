@@ -19,13 +19,13 @@ function Navbar() {
 				</button>
 				<div className='collapse navbar-collapse' id='navbarNav'>
 					<div className='navbar-nav ms-auto'>
-						<Link to='/#/' className='nav-link me-lg-5'>
+						<Link to='/' className='nav-link me-lg-5'>
 							Domů
 						</Link>
-						<Link to='/#/about' className='nav-link me-lg-5'>
+						<Link to='/about' className='nav-link me-lg-5'>
 							O projektu
 						</Link>
-						<Link to='/#/play' className='nav-link me-lg-5'>
+						<Link to='/play' className='nav-link me-lg-5'>
 							Hrát
 						</Link>
 					</div>
