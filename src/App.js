@@ -13,9 +13,6 @@ function App() {
 				<Routes>
 					<Route path='/'>
 						<Route exact path='' element={<Home />} />
-					</Route>
-					<Route path='/#/'>
-						<Route exact path='' element={<Home />} />
 						<Route exact path='about' element={<About />} />
 						<Route exact path='play' element={<Levels />} />
 						<Route exact path='play/:id' element={<GameUI />} />
