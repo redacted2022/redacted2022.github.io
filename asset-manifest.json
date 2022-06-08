@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e65cf8a2.css",
-    "main.js": "/static/js/main.403118fe.js",
+    "main.js": "/static/js/main.edd6ccc3.js",
     "static/media/Inconsolata.ttf": "/static/media/Inconsolata.ed7f6e5be703abdc4a71.ttf",
     "index.html": "/index.html",
     "main.e65cf8a2.css.map": "/static/css/main.e65cf8a2.css.map",
-    "main.403118fe.js.map": "/static/js/main.403118fe.js.map"
+    "main.edd6ccc3.js.map": "/static/js/main.edd6ccc3.js.map"
   },
   "entrypoints": [
     "static/css/main.e65cf8a2.css",
-    "static/js/main.403118fe.js"
+    "static/js/main.edd6ccc3.js"
   ]
 }
