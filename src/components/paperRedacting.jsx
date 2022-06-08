@@ -12,7 +12,6 @@ function Component(props) {
 		let tempCensoredParts = [...props.censoredParts]
 		tempCensoredParts[pageIndex][index] =
 			!tempCensoredParts[pageIndex][index]
-		console.log(tempCensoredParts)
 		props.censoredPartsSetter(tempCensoredParts)
 	}
 

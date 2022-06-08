@@ -64,7 +64,6 @@ function GameUI(props) {
 						)
 						parts.push(page.text.slice(lastIndex, page.text.length))
 						page.text = parts
-						console.log(tempCensoredParts)
 						setCensoredParts(tempCensoredParts)
 						return true
 					})
