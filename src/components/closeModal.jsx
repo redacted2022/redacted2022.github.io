@@ -4,18 +4,17 @@ import { Modal, Button } from 'react-bootstrap'
 function CloseModal(props) {
 	return (
 		<Modal show={props.state}>
-			<Modal.Header>Quit to level selection?</Modal.Header>
-			<Modal.Body>Your progress will be lost</Modal.Body>
+			<Modal.Header>Odejít zpět do výběru úrovní?</Modal.Header>
 			<Modal.Footer>
 				<Button
 					variant='secondary'
 					onClick={() => {
 						props.stateSetter(false)
 					}}>
-					Cancel
+					Zrušit
 				</Button>
 				<Link to='/play'>
-					<Button variant='primary'>Quit</Button>
+					<Button variant='primary'>Odejít</Button>
 				</Link>
 			</Modal.Footer>
 		</Modal>

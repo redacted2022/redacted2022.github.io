@@ -1,10 +1,31 @@
-.navbar {
-	height: 7.5vh;
+@font-face {
+	font-family: Inconsolata;
+	src: url('/public/Inconsolata.ttf');
+}
+
+h1,
+h2 {
+	font-family: Inconsolata;
+}
+
+@media screen and (min-width: 992px) {
+	.navbar {
+		height: 7.5vh;
+	}
+
+	.bg-container {
+		min-height: 92.5vh;
+	}
 }
 
 .bg-container {
-	height: 92.5vh;
 	background-color: black;
+}
+
+.about-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 3rem;
 }
 
 .paper {
