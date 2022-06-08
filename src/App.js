@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar'
 import Home from './pages/home'
 import About from './pages/about'
@@ -8,7 +8,7 @@ import GameUI from './pages/gameUI'
 function App() {
 	return (
 		<div className='App'>
-			<BrowserRouter>
+			<Router>
 				<Navbar />
 				<Routes>
 					<Route path='/'>
@@ -18,7 +18,7 @@ function App() {
 						<Route exact path='play/:id' element={<GameUI />} />
 					</Route>
 				</Routes>
-			</BrowserRouter>
+			</Router>
 		</div>
 	)
 }
